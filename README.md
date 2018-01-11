@@ -1,6 +1,6 @@
 # Punk Beer AngularJS Project
 
-Using AngularJS to consume Punk Beer API, along with ui.bootstrap.
+Using AngularJS along with ui.bootstrap to consume Punk Beer API.
 
 *work in progress*
 
