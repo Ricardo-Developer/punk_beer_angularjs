@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-en" ng-app="beerGuru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
+    <title>BEERguru</title>
+    <!-- Node_Modules Imports -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src="node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="node_modules/angular-animate/angular-animate.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-resource/angular-resource.js"></script>
+    <script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+    <script type="text/javascript" src="node_modules/angular-ui-bootstrap//dist/ui-bootstrap-tpls.js"></script>
+    <!-- My CSS style -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="/"><h2 class="sub-title"><strong><span class="main-title">BEER</span>GURU</h2></strong></a>
+        <h2>
+    </header>
+    <!-- <main ng-view></main> -->
+    <ui-view autoscroll='true'></ui-view>
+</body>
+<footer></footer>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<!-- AngularJS files -->
+<script type="text/javascript" src="init.js"></script>
+<script type="text/javascript" src="route-config.js"></script>
+<script type="text/javascript" src="controllers/beers.js"></script>
+<!-- /AngularJS files -->
+</html>

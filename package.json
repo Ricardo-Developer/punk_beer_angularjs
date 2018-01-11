@@ -1,0 +1,41 @@
+{
+  "name": "beerGuru",
+  "version": "13.10.1985",
+  "description": "beerGuru, a Project for netGuru",
+  "main": "beerguru.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "concurrently \"http-server -a localhost -p 1985 -e htm\" \"sleepms 1000 && open http://localhost:1985/index.htm\"",
+    "pretest": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/ricardo_fulldev/netguru-beerguru.git"
+  },
+  "keywords": [
+    "netguru",
+    "ricardo",
+    "carlos",
+    "beerguru"
+  ],
+  "author": "Ricardo Carlos @ ricardo.carlos.pl@gmail.com",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ricardo_fulldev/",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.12",
+    "angular": "1.6.8",
+    "angular-animate": "^1.6.8",
+    "angular-resource": "^1.6.8",
+    "angular-route": "1.6.8",
+    "angular-ui-bootstrap": "^2.5.6",
+    "angular-ui-scroll": "^1.7.0",
+    "bootstrap": "^3.3.7",
+    "concurrently": "^3.5.1",
+    "http-server": "^0.10.0",
+    "jquery": "^3.2.1",
+    "open-cli": "^1.0.5",
+    "sleep-ms": "^2.0.1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,146 @@
+html {
+    color: #C0C0C0;
+}
+
+a:hover,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.main-title {
+    color: #FFC300;
+}
+
+.sub-title {
+    color: #737373;
+    padding: 57px 174px 30px 170px;
+}
+
+.h-spacer {
+    padding: 13px;
+}
+
+.beer-title {
+    color: #FFC300;
+}
+
+.beer-motto {
+    color: #737373;
+}
+
+.image-beers {
+    max-height: 250px;
+}
+
+.thumbnail {
+    color: #FFF;
+    border-color: #F5F5F5;
+}
+
+.order {
+    margin: 0 50px 50px;
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url("data:image/png;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==") no-repeat 90% 50%;
+}
+
+.ordername {
+    margin: 0 50px 50px;
+}
+
+.order select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.order select:focus {
+    outline: none;
+}
+
+
+
+/*
+===== Thumbnail Effect Hover =====
+*/
+
+.img-shadow {
+    box-shadow: 0 5px 16px -26px black;
+    -webkit-box-shadow: 0 28px 16px -26px black;
+    -moz-box-shadow: 0 28px 16px -26px black;
+}
+
+.img-shadow:hover {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+    box-shadow: 0 58px 36px -56px #A9A9A9;
+    -webkit-box-shadow: 0 58px 36px -56px #A9A9A9;
+    -moz-box-shadow: 0 58px 36px -56px #A9A9A9;
+}
+
+.img-shadow {
+    transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+}
+
+.img-shadow:hover {
+    transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+}
+
+
+/*
+===== Modal CSS =====
+*/
+
+.modal-css {
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-beer-modal {
+    max-width: 175px;
+    max-height: 350px;
+}
+
+.modal-beer-details {
+    margin: 10px;
+    margin-top: 32px;
+    color: #A9A9A9;
+}
+
+.modal-tagline {
+    color: #808080;
+    padding-bottom: 32px;
+}
+
+.modal-descrition {
+    color: #A9A9A9;
+}
+
+.divider-modal {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #FFC300;
+    max-width: 90px;
+    border-radius: 3px;
+}

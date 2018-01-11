@@ -1,0 +1,23 @@
+<span class="ordername">Sort by:</span>
+<div class="order">
+    <select ng-model="sortby">
+        <option value="name">Alphabetical</option>
+        <option value="abv">ABV</option>
+        <option value="first_brewed">First Brewed</option>
+    </select>
+</div>
+<div class="container" role="button">
+    <div ng-repeat="beer in beers | orderBy:sortby" ui-sref="beers.detail({id: beer.id, name: beer.name, image_url: beer.image_url, tagline: beer.tagline, description: beer.description, ibu: beer.ibu, abv: beer.abv, ebc:beer.ebc})">
+        <div class="col-xs-12 col-md-4 col-md-4">
+            <div class="thumbnail thumb-hover img-shadow">
+                <img class="image-beers img-responsive" ng-src="{{beer.image_url}}" alt="Beer_Image">
+                <div class="caption">
+                    <h3 class="text-center beer-title">{{beer.name}}</h3>
+                    <p class="text-center beer-motto">{{beer.tagline}}</p>
+                </div>
+            </div>
+            <div class="h-spacer"></div>
+        </div>
+    </div>
+    <ui-view></ui-view>
+</div>
